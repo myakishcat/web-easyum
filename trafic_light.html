@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>traffic light</title>
+		<style>
+			.container {
+				width: 300px;
+				background: black;
+				margin: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border: 4px solid gray;
+			}
+			.red-block, .yellow-block, .green-block {
+				width: 150px;
+				height: 150px;
+				background: gray;
+				margin: auto;
+				border-radius: 75px;
+				margin-bottom: 10px;
+				border: 2px solid silver;
+				cursor: pointer;
+				box-shadow: inset 0 0 10px 5px rgb(0, 0, 0, 0.5);
+			}
+			.red-block {
+				background: red;
+			}
+			.yellow-block {
+				background: yellow;
+			}
+			.green-block {
+				background: lime;
+			}
+		</style>
+	</head>
+	<body>
+	<div class='container'>
+		<div class='red-block'></div>
+		<div class='yellow-block'></div>
+		<div class='green-block'></div>
+	</div>
+	</body>
+</html>
